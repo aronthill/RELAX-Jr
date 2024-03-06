@@ -5,3 +5,4 @@ The Reduction of Electroencephalographic Artifacts for Juvenile Recordings (RELA
 # Further Information
 Further information relating to the RELAX-Jr toolbox can be found in the following publication. If you use RELAX-Jr please cite: <br> <br>
 [INSERT PUBLICATION DETAILS HERE]
+
