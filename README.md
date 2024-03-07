@@ -4,7 +4,7 @@ The Reduction of Electroencephalographic Artifacts for Juvenile Recordings (RELA
 
 For details on installing and running RELAX-Jr, please see the [Wiki](https://github.com/aronthill/RELAX-Jr/wiki "RELAX-Jr Wiki") 
 
-# Further Information
+---
 Further information relating to the RELAX-Jr toolbox can be found in the following publication. If you use RELAX-Jr please cite: <br> <br>
 [INSERT PUBLICATION DETAILS HERE]
-
+---
