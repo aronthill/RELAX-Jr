@@ -10,4 +10,4 @@ Further information relating to the RELAX-Jr toolbox can be found in the followi
 
 
 ---
-<img width="1099" alt="Screenshot 2024-03-09 at 2 32 08 pm" src="https://github.com/aronthill/RELAX-Jr/assets/31600263/9e957508-5bcd-4306-a944-acf62993f897">
+
