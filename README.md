@@ -8,6 +8,5 @@ For details on installing and running RELAX-Jr, please see the [Wiki](https://gi
 Further information relating to the RELAX-Jr toolbox can be found in the following publication. If you use RELAX-Jr please cite: <br> <br>
 [INSERT PUBLICATION DETAILS HERE]
 
-
 ---
 
