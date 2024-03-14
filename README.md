@@ -1,6 +1,6 @@
 
 <p align="center">
-<img width="250" alt="RELAXJr_stuff" src="https://github.com/aronthill/RELAX-Jr/assets/31600263/bbcd032d-7896-4475-9554-9c945d5d97c2">
+<img width="250" alt="relax-jr-head" src="https://github.com/aronthill/RELAX-Jr/assets/31600263/b30f9969-c529-4df4-a389-fbff8f8fe03f)">
 </p>
 
 # RELAX-Jr
