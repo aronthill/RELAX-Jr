@@ -10,7 +10,7 @@ The Reduction of Electroencephalographic Artifacts for Juvenile Recordings (RELA
 
 ---
 Further information relating to the RELAX-Jr toolbox can be found in the following publication. If you use RELAX-Jr please cite: <br> <br>
-[INSERT PUBLICATION DETAILS HERE]
+Hill AT., Enticott, PG., Fitzgerald, PB., Bailey, NW. RELAX-Jr: An Automated Pre-Processing Pipeline for Developmental EEG Recordings. bioRxiv, 2024.04.02.587846; doi: https://doi.org/10.1101/2024.04.02.587846
 
 ---
 
