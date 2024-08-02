@@ -9,7 +9,7 @@ The Reduction of Electroencephalographic Artifacts for Juvenile Recordings (RELA
 **For details on installing and running RELAX-Jr, please see the [Wiki](https://github.com/aronthill/RELAX-Jr/wiki "RELAX-Jr Wiki")**
 
 ---
-Further information relating to the RELAX-Jr toolbox can be found in the following publication. If you use RELAX-Jr please cite the following: <br> <br>
+If you use RELAX-Jr in your work please cite the following: <br> <br>
 Hill, AT., Enticott, PG., Fitzgerald, PB., Bailey, NW. RELAX-Jr: An Automated Pre-Processing Pipeline for Developmental EEG Recordings. bioRxiv, 2024.04.02.587846; doi: https://doi.org/10.1101/2024.04.02.587846
 
 Bailey, NW., Biabani, M., Hill, AT., Miljevic, A., Rogasch, NC., McQueen, B., Murphy, OW., Fitzgerald, PB. (2023). Introducing RELAX: An automated pre-processing pipeline for cleaning EEG data - Part 1: Algorithm and application to oscillations. Clinical Neurophysiology, 149, 178-201
