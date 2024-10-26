@@ -18,7 +18,7 @@
 function [EEG] = RELAXJr_ICA_subtract(EEG,RELAX_cfg)
     fastica_symm_Didnt_Converge=[0 0 0];
     % run ICA:
-    if strcmp(RELAX_cfg.ICA_method,'runica')
+    if strcmp(RELAX_cfg.ICA_method,'extended_infomax_ICA')
         [OUTEEG, ~] = pop_runica_nwb(EEG, 'extended',1,'interupt','on'); %runica for parametric, default extended for finding subgaussian distributions
         W = OUTEEG.icaweights*OUTEEG.icasphere;
         A = inv(W);
