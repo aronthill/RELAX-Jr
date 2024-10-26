@@ -172,15 +172,20 @@ end
 if ~isfield(RELAX_cfg,'MinimumBlinkArtifactDuration')
     RELAX_cfg.MinimumBlinkArtifactDuration=800; % Blink marking is based on the maximum point of the blink rather than the 1000ms divisions for muscle artifacts, so this can be shorter than the value above (blinks do not typically last >500ms)
 end
+
+
+%RELAX 1.0.1 update - use Magstim/EGI 64-channel SensorNet nomenculature
+%rather than 10-10. 
+
 if ~isfield(RELAX_cfg,'BlinkElectrodes')
-    RELAX_cfg.BlinkElectrodes={'FP1';'FPZ';'FP2';'AF3';'AF4';'F3';'F1';'FZ';'F2';'F4';'F9';'F10'}; % sets the electrodes to average for blink detection using the IQR method. These should be frontal electrodes maximally affected by blinks. The order is the order of preference for icablinkmetrics.
+    RELAX_cfg.BlinkElectrodes={'E10';'E8';'E5';'E11';'E2';'E12';'E9';'E6';'E3';'E60';'E17';'E1';'E18';'E58'}; % sets the electrodes to average for blink detection using the IQR method. These should be frontal electrodes maximally affected by blinks. The order is the order of preference for icablinkmetrics.
 end
 % A single HOEG electrode for each side is selected by the script, prioritized in the following order (if the electrode in position 1 isn't present, the script will check for electrode in position 2, and so on...).
 if ~isfield(RELAX_cfg,'HEOGLeftpattern')
-    RELAX_cfg.HEOGLeftpattern = ["AF7","F7","FT7","F5","T7","FC5","C5","TP7","AF3","F9"];   % sets left side electrodes to use for horizontal eye movement detection. These should be lateral electrodes maximally effected by blinks.
+    RELAX_cfg.HEOGLeftpattern = ["E18","E19","E13","E24","E14","E22","E25","E11","E17","E64"];   % sets left side electrodes to use for horizontal eye movement detection. These should be lateral electrodes maximally effected by blinks.
 end
 if ~isfield(RELAX_cfg,'HEOGRightpattern')
-    RELAX_cfg.HEOGRightpattern = ["AF8","F8","FT8","F6","T8","FC6","C6","TP8","AF4","F10"]; % sets right side electrodes to use for horizontal eye movement detection. These should be lateral electrodes maximally effected by blinks.
+    RELAX_cfg.HEOGRightpattern = ["E58","E56","E59","E52","E57","E49","E48","E2","E1","E61"]; % sets right side electrodes to use for horizontal eye movement detection. These should be lateral electrodes maximally effected by blinks.
 end
 %Note the above default electrodes specified here might need to be changed
 %by the user. E.g., depending on the specific cap/electrodes used. Also
@@ -594,7 +599,8 @@ fprintf([
     '\n----------------------------------------------------------------------------------------------------------------'...
     '\nIf you use RELAX-Jr in your work, please cite the reference paper along with any dependencies used:' ...
     '\nHill, AT., Enticott, PG., Fitzgerald, PB., Bailey, NW. RELAX-Jr:'...
-    '\nAn Automated Pre-Processing Pipeline for Developmental EEG Recordings. bioRxiv 2024.04.02.587846'...
+    '\nAn Automated Pre-Processing Pipeline for Developmental EEG Recordings. Human Brain Mapping, 45:e70034', ... 
+    '\nhttps://doi.org/10.1002/hbm.70034'...
     '\n----------------------------------------------------------------------------------------------------------------'...
     '\n'
     ]);
