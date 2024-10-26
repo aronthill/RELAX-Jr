@@ -17,7 +17,7 @@
 % Add RELAX-Jr to the EEGLAB gui:
 function vers = eegplugin_RELAXJr(fig, try_strings, catch_strings)
 
-    vers = 'RELAX-Jr 1.0.0';
+    vers = 'RELAX-Jr 1.0.1';
 
     if ispc      % windows
             wfactor1 = 1.20;
